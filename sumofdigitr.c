@@ -7,8 +7,6 @@ int sum(int x){
     rem=x%10;
     return rem+sum(x/10);
     }
-    
-}
 int main(){
     int a,b;
     scanf("%d",&a);
